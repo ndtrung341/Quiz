@@ -90,9 +90,7 @@ const renderQuiz = function (questions = [], chapter = 1) {
 };
 function renderHTML(chapter) {
 	Document2Object(
-		// "https://raw.githubusercontent.com/duytrungdev/TNQLHC/master/qlhc.txt",
-		// "https://github.com/duytrungdev/TNQLHC/blob/master/qlhc.txt",
-		"https://raw.githubusercontent.com/duytrungdev/QLHC/master/qlhc.txt",
+		"https://raw.githubusercontent.com/ndtrung341/Quiz_Website-HTML-CSS-JS-/main/qlhc.txt"
 	)
 		// .then((text) => console.log(text))
 		.then((text) => renderQuiz(text, chapter))
